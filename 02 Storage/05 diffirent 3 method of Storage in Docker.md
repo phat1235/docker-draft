@@ -1,5 +1,3 @@
----
-
 # Hiểu về Docker Mounts: Volumes, Bind Mounts và tmpfs  
 **Tổng quan ngắn gọn về Docker mounts cùng các trường hợp sử dụng và lợi ích của từng loại**
 
@@ -175,4 +173,3 @@ docker volume inspect [ten-volume]
 ```bash
 docker volume rm [ten-volume]
 ```
-
