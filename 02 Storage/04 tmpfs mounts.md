@@ -1,5 +1,3 @@
----
-
 ## tmpfs mounts
 
 Các **volume** và **bind mounts** cho phép bạn chia sẻ tập tin giữa máy chủ (host) và container, giúp dữ liệu có thể được duy trì ngay cả khi container bị dừng.
@@ -17,8 +15,6 @@ tmpfs mounts phù hợp với các trường hợp **không cần lưu trữ d�
 > ⚠️ **Lưu ý quan trọng:**  
 > tmpfs mount trong Docker ánh xạ trực tiếp với tmpfs của nhân Linux ([tmpfs - Wikipedia](https://en.wikipedia.org/wiki/Tmpfs)).  
 > Dữ liệu tạm thời có thể được ghi ra **swap file**, và do đó có thể bị ghi xuống đĩa.
-
----
 
 ## Ghi đè dữ liệu sẵn có
 
